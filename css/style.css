@@ -1,0 +1,260 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	width: 100%;
+	background-color: #f6f9f9;
+
+	position: fixed;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+.logo{
+	width: 100%;
+	float: left;
+}
+.logo img{
+	width:150px;
+	margin: 10px 60px;
+
+}
+.banner-section{
+	width: 100%;
+	background:url(../img/banner.png);
+	background-size: cover;
+	margin: 0 auto;
+	float: left;
+}
+
+.banner-contents{
+    text-align: center;
+    margin: 10% 29% 5% 29%;
+}
+.banner-contents h1{
+	color: #ffffff;
+	text-align: center;
+	margin-top: 70px;
+	font-size: 65px;
+
+}
+.banner-contents p{
+	color: #ffffff;
+	text-align: center;
+	border-top: 2px solid #15a4fa;
+	padding-top: 20px;
+	padding-bottom: 75px;
+}
+.banner-contents a{
+	color: #ffffff;
+	text-decoration: none;
+	border: 1px solid #15a4fa;
+	padding: 10px 10px;
+	display: inline-block;
+	margin-bottom: 150px;
+}
+.simple{
+	width: 100%;
+	float: left;
+	background-color:#f6f9f9;
+	margin: 0 auto;
+}
+.simple-contents{
+	text-align: center;
+	margin: 30px 15%;
+}
+.simple-contents h2{
+	color: #3a465b;
+	text-align: center;
+	margin-bottom: 15px;
+}
+.simple-contents p{
+	color: #3a465b;
+	margin-bottom: 50px;
+}
+.featuers{
+	background-color: white;
+	width: 100%;
+}
+.features-contents{
+	width:33.3333%;
+	float: left;
+}
+.features-one{
+	margin: 20px 30px 10px 45px;
+}
+.features-one img{
+	width: 80px;
+	height: 80px;
+	margin: 20px auto;
+	display: block;
+}
+.features-one h3{
+	color: #3a465b;
+	text-align: center;
+}
+.features-one p{
+	margin-top: 10px;
+	color: #3a465b;
+	text-align: center;
+	font-size:14px;
+}
+.features-two{
+	margin: 20px 30px 10px 45px;
+}
+.features-two img{
+	width: 80px;
+	height: 80px;
+	margin: 20px auto;
+	display: block;
+}
+.features-two h3{
+	color: #3a465b;
+	text-align: center;
+}
+.features-two p{
+	margin-top: 10px;
+	color: #3a465b;
+	text-align: center;
+	font-size:14px;
+}
+.features-three{
+	margin: 20px 30px 10px 45px;
+}
+.features-three img{
+	width: 80px;
+	height: 80px;
+	margin: 20px auto;
+	display: block;
+}
+.features-three h3{
+	color: #3a465b;
+	text-align: center;
+}
+.features-three p{
+	margin-top: 10px;
+	color: #3a465b;
+	text-align: center;
+	font-size:14px;
+}
+.showcase-section{
+	width: 100%;
+	float: left;
+	background-color: #f6f9f9;
+}
+
+.showcase h1{
+	font-size: 35px;
+	color:#3a465b; 
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 15px;
+}
+.showcase p{
+	color: #3a465b; 
+	text-align: center;
+	margin-bottom: 50px;
+}
+.showcase-contents{
+	margin-bottom: 20px;
+}
+.showcase-contents img{
+	width: 350px;
+	height: 250px;
+	padding: 10px;
+}
+.stay-section{
+	width: 100%;
+	background:url(../img/stay.png) no-repeat;
+	background: cover;
+	float: left;
+	padding-bottom: 50px;
+}
+.stay-contents{
+	width: 40%;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+.stay-contents h2{
+	color: #ffffff;
+	font-size: 45px;
+	text-align: center;
+	padding-top: 30px;
+
+}
+.stay-contents p{
+	color: #ffffff;
+	text-align: center;
+	margin-bottom: 25px;
+}
+.from-contents{
+	width: 88%;
+	height: 35px;
+	display: block;
+	margin: 0 auto;
+	padding: 10px;
+	border-radius: 5px;
+	border:1px solid white;
+	margin-bottom: 7px;
+	background: top;
+
+}
+.message-input{ 
+	width: 88%;
+	display: block;
+	margin: 0 auto;
+	padding: 10px;
+	border-radius: 5px;
+	border:1px solid white;
+	padding-bottom: 85px;
+	background: top;
+}
+.subscribe {
+	float: left;
+	display: inline-block;
+	margin: 20px 35px;
+	color: #ffffff;
+	list-style: square;
+
+}
+.btn-send{
+	float: right;
+	margin: 10px 18px;
+	padding: 8px 25px 8px 25px;
+	background: transparent;
+	color: #fff;
+	border: 1px solid #1691DB;
+	display: block;
+	border-radius: 2px;
+}
+.footer-section{
+	width: 100%;
+	background-color: white;
+}
+.copyright{
+	width: 50%;
+	float: left;
+}
+.social-icons{
+	width: 50%;
+	float: right;
+}
+.copyright{
+	width: 50%;
+	float: left;
+}
+.copyright p{
+	color: #3a465b;
+	margin: 20px 70px;
+}
+.social-contact{
+	width: 50%;
+	background-color:white;
+	float: left;
+}
+.social-contact img{
+	float: right;
+	padding: 5px;
+}
